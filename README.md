@@ -1,18 +1,15 @@
-URL Shortener
+**Expense Tracker (₹)**
 
-A lightweight full-stack web application that converts long URLs into short, shareable links using a unique shortcode generation system.
+A lightweight, high-performance full-stack web application designed to track personal income and expenses with real-time balance calculations denominated in Indian Rupees (₹).
 
-🚀 Features
+## 🚀 Features
 
-• URL Shortening: Converts lengthy URLs into compact and easy-to-share links.
-• Unique Short Codes: Generates random alphanumeric short codes for each URL.
-• Fast Redirection: Instantly redirects users from short URLs to the original destination.
-• RESTful API: Supports POST requests for URL creation and GET requests for redirection.
-• Persistent Storage: Stores URL mappings in a JSON file for data persistence.
-• Responsive Interface: Simple and user-friendly design built with modern web technologies.
+* **Real-Time Computations:** Dynamically updates total balance, income, and expense modules instantly.
+* **RESTful Architecture:** Features a decoupled backend API architecture handling GET, POST, and DELETE requests.
+* **Asynchronous Operations:** Uses the native JavaScript Fetch API for smooth updates without page reloads.
+* **Semantic Design:** Clean, responsive layout styled with modern CSS variables.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Frontend: HTML5, CSS3, Vanilla JavaScript (ES6+)
-Backend: Node.js, Express.js (or Node.js HTTP Module for the non-Express version)
-Storage: JSON File
+**Frontend:** HTML5, CSS3, Vanilla JavaScript (ES6+)
+**Backend:** Node.js, Express.js
